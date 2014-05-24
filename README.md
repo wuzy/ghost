@@ -1,1 +1,1 @@
-A simple person blog build on ghost
+A simple personal blog build on ghost
