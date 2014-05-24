@@ -351,6 +351,12 @@ table.plain {
     vertical-align: middle;
 }
 
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 5rem;
+}
+
 
 /* ==========================================================================
    4. General - The main styles for the the theme
@@ -408,8 +414,8 @@ table.plain {
     position: relative;
     width:80%;
     max-width: 700px;
-    margin: 4rem auto;
-    padding-bottom: 4rem;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
